@@ -1,5 +1,5 @@
 s = input()
-words = ["erase", "dream", "eraser", "dreamer"]
+words = ['eraser', 'erase', 'dreamer', 'dream']
 for word in words:
     s = s.replace(word, '')
 if len(s) == 0:
