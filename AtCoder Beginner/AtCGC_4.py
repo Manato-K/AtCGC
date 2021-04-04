@@ -1,5 +1,5 @@
 N = int(input())
-a = list(map(int,input().split()))
+a = list(map(int, input().split()))
 cnt = 0
 x = 0
 
