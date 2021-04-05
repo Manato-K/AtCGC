@@ -6,6 +6,6 @@ for i in range(n+1):
     while n > 0:
         sum += n % 10
         n = n // 10
-        if a <= sum <= b:
-            cnt += 1
+    if a <= sum <= b:
+        cnt += i
 print(cnt)
